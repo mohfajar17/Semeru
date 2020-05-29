@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewInfoPenting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mountains_bg" />
+
+    <TextView
+        android:id="@+id/textViewKeteranganInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:padding="15dp"
+        android:text="Lomba Pembuatan Vlog, Penulisan Artikel Blog, Iklan Layanan Masyarakat KIM, dan Anugerah KIM Berprestasi Kota Surabaya"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>
